@@ -4,7 +4,7 @@ exo__Asset_label: "Set Criticality Medium"
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_createdAt: "2026-04-05T18:00:00"
 exo__Instance_class:
-  - "[[exocmd__Command]]"
+  - "[[790e5b16-251d-4556-96ac-e5c7f1429b2e]]"
 exocmd__Command_icon: "calendar-days"
 exocmd__Command_precondition: "[[5140daf0-a565-427b-a14d-8e7f7cf770a3|Not in This Week zone]]"
 exocmd__Command_grounding: "[[6d78a3a4-401a-4fb9-8b44-48c6530eef62|Set zone to This Week]]"

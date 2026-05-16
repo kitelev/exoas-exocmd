@@ -7,9 +7,9 @@ exo__Instance_class:
   - "[[11579feb-2e42-491c-af59-b89b1129a539]]"
 exocmd__Grounding_type: "property_set"
 exocmd__Grounding_targetProperty: "ems__Effort_status"
-exocmd__Grounding_targetValue: "\"[[753a44d5-846c-4b82-9196-4fd9a4d48777|ems__EffortStatusBacklog]]\""
+exocmd__Grounding_targetValue: "\"[[753a44d5-846c-4b82-9196-4fd9a4d48777]]\""
 ---
 
 # Set status to Backlog
 
-Grounding action that sets `ems__Effort_status` to `[[753a44d5-846c-4b82-9196-4fd9a4d48777|ems__EffortStatusBacklog]]`.
+Grounding action that sets `ems__Effort_status` to `[[753a44d5-846c-4b82-9196-4fd9a4d48777]]`.

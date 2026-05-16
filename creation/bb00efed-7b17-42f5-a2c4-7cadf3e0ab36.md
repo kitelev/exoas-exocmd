@@ -2,7 +2,7 @@
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: bb00efed-7b17-42f5-a2c4-7cadf3e0ab36
 exo__Asset_createdAt: 2026-04-27T21:31:58
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[790e5b16-251d-4556-96ac-e5c7f1429b2e]]"
 exo__Asset_label: Create Task Instance
@@ -12,11 +12,11 @@ aliases:
 exocmd__Command_icon: plus-square
 exocmd__Command_category: creation
 exocmd__Command_grounding:
-  - "[[a6ef8fda-addb-40c3-940c-fe55fd7e8500|Create TaskPrototype instance]]"
-  - "[[00a6a887-1df8-4bc9-b9be-bc32c1ca9efb|Create ProjectPrototype instance]]"
-  - "[[e01b025b-d03f-4028-b4c8-45d3786ff43d|Create MeetingPrototype instance]]"
-  - "[[3da98088-3d29-40fe-9947-9404d51d7c28|Create FleetingNotePrototype instance]]"
-  - "[[adc73790-d984-4365-bec5-a19e114c1a83|Create EventPrototype instance]]"
+  - "[[a6ef8fda-addb-40c3-940c-fe55fd7e8500]]"
+  - "[[00a6a887-1df8-4bc9-b9be-bc32c1ca9efb]]"
+  - "[[e01b025b-d03f-4028-b4c8-45d3786ff43d]]"
+  - "[[3da98088-3d29-40fe-9947-9404d51d7c28]]"
+  - "[[adc73790-d984-4365-bec5-a19e114c1a83]]"
 exocmd__Command_confirmMessage: Create a new task from this prototype?
 exocmd__Command_successMessage: Task instance created
 exocmd__Command_cliName: create-task-instance
@@ -38,11 +38,11 @@ N=5 groundings с `type=create_instance` (RF-016):
 
 | Prototype | Grounding | instanceClass |
 |-----------|-----------|---------------|
-| ems__TaskPrototype | `[[a6ef8fda-addb-40c3-940c-fe55fd7e8500|Create TaskPrototype instance]]` | ems__Task |
-| ems__ProjectPrototype | `[[00a6a887-1df8-4bc9-b9be-bc32c1ca9efb|Create ProjectPrototype instance]]` | ems__Project |
-| ems__MeetingPrototype | `[[e01b025b-d03f-4028-b4c8-45d3786ff43d|Create MeetingPrototype instance]]` | ems__Meeting |
-| ztlk__FleetingNotePrototype | `[[3da98088-3d29-40fe-9947-9404d51d7c28|Create FleetingNotePrototype instance]]` | ztlk__FleetingNote |
-| exo__EventPrototype | `[[adc73790-d984-4365-bec5-a19e114c1a83|Create EventPrototype instance]]` | exo__Event |
+| ems__TaskPrototype | `[[a6ef8fda-addb-40c3-940c-fe55fd7e8500]]` | ems__Task |
+| ems__ProjectPrototype | `[[00a6a887-1df8-4bc9-b9be-bc32c1ca9efb]]` | ems__Project |
+| ems__MeetingPrototype | `[[e01b025b-d03f-4028-b4c8-45d3786ff43d]]` | ems__Meeting |
+| ztlk__FleetingNotePrototype | `[[3da98088-3d29-40fe-9947-9404d51d7c28]]` | ztlk__FleetingNote |
+| exo__EventPrototype | `[[adc73790-d984-4365-bec5-a19e114c1a83]]` | exo__Event |
 
 ## Implementation roadmap
 
@@ -58,5 +58,5 @@ N=5 groundings с `type=create_instance` (RF-016):
 
 ## Related
 
-- RFC: `[[5a61a359-d76b-4f6c-9bff-624ddcec42b8|RFC: v15.38.0 Full UI Parity Restoration]]`
-- Audit (C.1.1): `[[84a3b6ce-6473-47c3-9161-bbd36a2fd84c|C.1.1 Audit]]`
+- RFC: `[[5a61a359-d76b-4f6c-9bff-624ddcec42b8]]`
+- Audit (C.1.1): `[[84a3b6ce-6473-47c3-9161-bbd36a2fd84c]]`

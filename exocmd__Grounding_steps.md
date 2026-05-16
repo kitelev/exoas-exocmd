@@ -1,0 +1,33 @@
+---
+exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
+exo__Asset_uid: c9a8e5b1-3f4a-4d2e-9c7b-8e1f6d4a5b3c
+exo__Asset_createdAt: 2026-04-26T17:32:00
+exo__Asset_updatedAt: 2026-05-16T19:18:00
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[9a1cf31c-9d41-4ef3-9023-584a8d087d16]]"
+exo__Property_domain: "[[exocmd__Grounding]]"
+exo__Property_range: "[[exocmd__Grounding]]"
+exo__Property_description: "Ordered list of child grounding wikilinks executed sequentially when parent grounding type=composite. Each step is itself an exocmd__Grounding asset. Read by CommandResolver.loadCompositeSteps."
+---
+
+# exocmd__Grounding_steps
+
+Ordered child-grounding references for `composite` groundings.
+
+- **Domain:** `exocmd__Grounding` (parent composite)
+- **Range:** `exocmd__Grounding` (each step = another grounding)
+- **Cardinality:** 1..N (typically 2-3)
+- **Read by:** `CommandResolver.loadCompositeSteps` → executed by `GroundingExecutor.executeComposite` with rollback on step failure
+
+## Usage Pattern
+
+```yaml
+exocmd__Grounding_type: "composite"
+exocmd__Grounding_steps:
+  - "[[<step1-uuid>|Step 1: set status]]"
+  - "[[<step2-uuid>|Step 2: set timestamp]]"
+```
+
+Child groundings can be any non-composite type (`property_set`, `property_delete`, `service_call`).
+Variable substitution (`$nowLocal`, `$now`, `$today`, `$target`, `$input`) applies in each step's `targetValue`.

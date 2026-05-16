@@ -21,7 +21,7 @@ exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"
 Grounding для создания `ems__Project` instance из `ems__ProjectPrototype`.
 
 - `Grounding_type=create_instance` → `GroundingExecutor.executeCreateInstance`.
-- `targetClass=ems__Project` → `exo__Instance_class: [[ems__Project]]` в новом файле.
+- `targetClass=ems__Project` → `exo__Instance_class: [[7db5eeff-718a-49b0-8d2b-39b084a356e3|ems__Project]]` в новом файле.
 - `targetPrototype=b2a49bb7-...|ems__ProjectPrototype` → `exo__Asset_prototype: [[...]]` в новом файле.
 - `targetFolder=03 Knowledge/inbox` — место создания файла.
 - `inputSchema` — modal с полем label (Project name).

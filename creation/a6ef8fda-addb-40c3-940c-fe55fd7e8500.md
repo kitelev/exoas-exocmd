@@ -21,7 +21,7 @@ exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"
 Grounding для создания `ems__Task` instance из `ems__TaskPrototype`.
 
 - `Grounding_type=create_instance` → `GroundingExecutor.executeCreateInstance`.
-- `targetClass=ems__Task` → `exo__Instance_class: [[ems__Task]]` в новом файле.
+- `targetClass=ems__Task` → `exo__Instance_class: [[1b20a8f0-d745-4e93-91db-4531b3df120e|ems__Task]]` в новом файле.
 - `targetPrototype=df7e579d-...|ems__TaskPrototype` → `exo__Asset_prototype: [[...]]` в новом файле.
 - `targetFolder=03 Knowledge/inbox` — место создания файла.
 - `inputSchema` — modal с полем label (Task name).

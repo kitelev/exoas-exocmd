@@ -8,7 +8,6 @@ exo__Instance_class:
 exo__Asset_label: Create Task Instance
 aliases:
   - Create Task Instance
-  - Create Task Instance
 exocmd__Command_icon: plus-square
 exocmd__Command_category: creation
 exocmd__Command_grounding:
@@ -21,7 +20,7 @@ exocmd__Command_confirmMessage: Create a new task from this prototype?
 exocmd__Command_successMessage: Task instance created
 exocmd__Command_cliName: create-task-instance
 exocmd__Command_destructive: true
-exo__Asset_updatedAt: "2026-05-16T18:41:57+0500"
+exo__Asset_updatedAt: 2026-05-16T18:41:57+0500
 ---
 
 # Create Instance

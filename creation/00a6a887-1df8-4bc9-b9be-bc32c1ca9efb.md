@@ -11,8 +11,8 @@ aliases:
   - "Create ProjectPrototype instance"
 exocmd__Grounding_type: "create_instance"
 exocmd__Grounding_targetFolder: "03 Knowledge/inbox"
-exocmd__Grounding_targetClass: "ems__Project"
-exocmd__Grounding_targetPrototype: "b2a49bb7-3a0f-4984-aa18-38832dc967bc|ems__ProjectPrototype"
+exocmd__Grounding_targetClass: "7db5eeff-718a-49b0-8d2b-39b084a356e3"
+exocmd__Grounding_targetPrototype: "b2a49bb7-3a0f-4984-aa18-38832dc967bc"
 exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"string","title":"Project name"}},"required":["label"]}'
 ---
 

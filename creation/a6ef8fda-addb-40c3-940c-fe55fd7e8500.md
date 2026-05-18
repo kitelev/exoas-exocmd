@@ -11,9 +11,10 @@ aliases:
   - "Create TaskPrototype instance"
 exocmd__Grounding_type: "create_instance"
 exocmd__Grounding_targetFolder: "03 Knowledge/inbox"
-exocmd__Grounding_targetClass: "ems__Task"
-exocmd__Grounding_targetPrototype: "df7e579d-02d4-4f3a-971f-3d1d785b689b|ems__TaskPrototype"
+exocmd__Grounding_targetClass: "1b20a8f0-d745-4e93-91db-4531b3df120e"
+exocmd__Grounding_targetPrototype: "df7e579d-02d4-4f3a-971f-3d1d785b689b"
 exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"string","title":"Task name"}},"required":["label"]}'
+exocmd__Grounding_prefillLabelWithDate: true
 ---
 
 # Create Task instance from prototype

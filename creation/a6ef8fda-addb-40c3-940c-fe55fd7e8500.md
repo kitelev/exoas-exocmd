@@ -2,7 +2,7 @@
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: a6ef8fda-addb-40c3-940c-fe55fd7e8500
 exo__Asset_createdAt: 2026-05-02T09:19:00
-exo__Asset_updatedAt: 2026-05-03T12:20:00
+exo__Asset_updatedAt: 2026-05-20T09:05:00
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[11579feb-2e42-491c-af59-b89b1129a539]]"
@@ -14,6 +14,7 @@ exocmd__Grounding_targetFolder: "03 Knowledge/inbox"
 exocmd__Grounding_targetClass: "ems__Task"
 exocmd__Grounding_targetPrototype: "df7e579d-02d4-4f3a-971f-3d1d785b689b|ems__TaskPrototype"
 exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"string","title":"Task name"}},"required":["label"]}'
+exocmd__Grounding_prefillLabelWithDate: true
 ---
 
 # Create Task instance from prototype

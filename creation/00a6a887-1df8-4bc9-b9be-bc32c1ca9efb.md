@@ -3,7 +3,6 @@ exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: 00a6a887-1df8-4bc9-b9be-bc32c1ca9efb
 exo__Asset_createdAt: 2026-05-03T12:20:00
 exo__Asset_updatedAt: 2026-05-24T18:40:00
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[11579feb-2e42-491c-af59-b89b1129a539]]"
 exo__Asset_label: "Create ProjectPrototype instance"

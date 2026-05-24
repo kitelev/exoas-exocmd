@@ -6,7 +6,6 @@ aliases:
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_createdAt: 2026-05-19T13:21:52
 exo__Asset_updatedAt: 2026-05-19T13:21:52
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[790e5b16-251d-4556-96ac-e5c7f1429b2e]]"
 exocmd__Command_icon: eye-check

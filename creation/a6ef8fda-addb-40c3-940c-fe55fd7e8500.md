@@ -3,7 +3,6 @@ exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: a6ef8fda-addb-40c3-940c-fe55fd7e8500
 exo__Asset_createdAt: 2026-05-02T09:19:00
 exo__Asset_updatedAt: 2026-05-22T00:49:05
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[11579feb-2e42-491c-af59-b89b1129a539]]"
 exo__Asset_label: "Create TaskPrototype instance"

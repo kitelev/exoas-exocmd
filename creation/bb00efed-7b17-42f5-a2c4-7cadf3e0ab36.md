@@ -2,7 +2,6 @@
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: bb00efed-7b17-42f5-a2c4-7cadf3e0ab36
 exo__Asset_createdAt: 2026-04-27T21:31:58
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[790e5b16-251d-4556-96ac-e5c7f1429b2e]]"
 exo__Asset_label: Create Task Instance

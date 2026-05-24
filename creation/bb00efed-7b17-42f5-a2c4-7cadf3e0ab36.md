@@ -56,5 +56,3 @@ N=5 groundings с `type=create_instance` (RF-016):
 
 ## Related
 
-- RFC: `[[5a61a359-d76b-4f6c-9bff-624ddcec42b8]]`
-- Audit (C.1.1): `[[84a3b6ce-6473-47c3-9161-bbd36a2fd84c]]`

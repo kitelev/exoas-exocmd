@@ -20,6 +20,5 @@ exo__Asset_updatedAt: "2026-05-16T18:41:57+0500"
 Sets `ems__Task_zone` to This Week (medium criticality) on the target task.
 
 - **Precondition**: Visible only when task is NOT in This Week zone
-- **Grounding**: Sets `ems__Task_zone` to `[[c7f1a968-0959-4ac7-ac82-31b0cdc2aba7]]`
 - **Icon**: calendar-days (Lucide)
 - **Category**: criticality

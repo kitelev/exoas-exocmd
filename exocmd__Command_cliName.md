@@ -1,10 +1,13 @@
 ---
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_uid: f5033e92-806c-44db-8c1f-e113e3c1f54f
-exo__Asset_createdAt: "2026-05-16T22:05:00"
-exo__Asset_label: "exocmd__Command_cliName"
+exo__Asset_createdAt: 2026-05-16T22:05:00
+exo__Asset_label: exocmd__Command_cliName
+aliases:
+  - exocmd__Command_cliName
 exo__Instance_class:
   - "[[30d63ce4-e574-456c-8de8-2bf1a53688c1]]"
 exo__Property_domain: "[[790e5b16-251d-4556-96ac-e5c7f1429b2e]]"
 exo__Property_description: "Short kebab-case ASCII slug for invoking the command via `exocortex apply <slug>`. Pattern: ^[a-z][a-z0-9-]*$. Optional 0..1. Uniqueness enforced by CLI startup runtime validator (DD5). Source: onto-RFC 245b8493 M1.3 / CLI RFC 8e83442b DD1."
+exo__Property_displayName: cliName
 ---

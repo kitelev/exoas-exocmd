@@ -8,7 +8,7 @@ exo__Instance_class:
 exo__Asset_label: "Create TaskPrototype instance"
 aliases:
   - "Create TaskPrototype instance"
-exocmd__Grounding_type: "create_instance"
+exocmd__Grounding_type: "[[4367e2d6-6c92-450a-becb-abce1fb07682]]"
 exocmd__Grounding_targetFolder: "03 Knowledge/inbox"
 exocmd__Grounding_targetClass: "ems__Task"
 exocmd__Grounding_targetPrototype: "df7e579d-02d4-4f3a-971f-3d1d785b689b|ems__TaskPrototype"

@@ -8,7 +8,7 @@ exo__Instance_class:
 exo__Asset_label: "Create ProjectPrototype instance"
 aliases:
   - "Create ProjectPrototype instance"
-exocmd__Grounding_type: "create_instance"
+exocmd__Grounding_type: "[[4367e2d6-6c92-450a-becb-abce1fb07682]]"
 exocmd__Grounding_targetFolder: "03 Knowledge/inbox"
 exocmd__Grounding_targetClass: "ems__Project"
 exocmd__Grounding_targetPrototype: "b2a49bb7-3a0f-4984-aa18-38832dc967bc|ems__ProjectPrototype"

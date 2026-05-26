@@ -15,11 +15,12 @@ exocmd__Command_grounding:
   - "[[e01b025b-d03f-4028-b4c8-45d3786ff43d]]"
   - "[[3da98088-3d29-40fe-9947-9404d51d7c28]]"
   - "[[adc73790-d984-4365-bec5-a19e114c1a83]]"
+  - "[[2f8db9d5-bde4-4242-889d-a85d17ce870f]]"
 exocmd__Command_confirmMessage: Create a new task from this prototype?
 exocmd__Command_successMessage: Task instance created
 exocmd__Command_cliName: create-task-instance
 exocmd__Command_destructive: true
-exo__Asset_updatedAt: 2026-05-16T18:41:57+0500
+exo__Asset_updatedAt: 2026-05-26T10:57:43+0500
 ---
 
 # Create Instance

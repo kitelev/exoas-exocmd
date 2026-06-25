@@ -13,8 +13,5 @@ aliases:
   - exocmd__Grounding_templateRef
 exo__Property_displayName: templateRef
 ---
-# exocmd__Grounding_templateRef
 
 Ссылка на `exotemplate__Template` ассет для grounding-типа `body_template`. Тело шаблона загружается рантаймом и резолвится по `$token`. Альтернатива — inline `exocmd__Grounding_bodyTemplate`.
-
-[[60967c6a-4e8a-4ee3-8922-db98b981e4f4|$exocmd]]

@@ -3,16 +3,17 @@ exo__Asset_uid: a222094b-f499-4342-aec0-65c4ba99c657
 exo__Asset_label: "Create task"
 exo__Asset_isDefinedBy: "[[60967c6a-4e8a-4ee3-8922-db98b981e4f4]]"
 exo__Asset_createdAt: "2026-04-05T16:00:00"
-exo__Asset_updatedAt: 2026-05-23T14:30:00
+exo__Asset_updatedAt: 2026-07-28T01:20:00
 exo__Instance_class:
   - "[[11579feb-2e42-491c-af59-b89b1129a539]]"
 exocmd__Grounding_type: "[[4367e2d6-6c92-450a-becb-abce1fb07682]]"
-exocmd__Grounding_targetFolder: "$targetFolder"
+exocmd__Grounding_targetFolder: "$isDefinedByFolder"
 exocmd__Grounding_targetClass: "1b20a8f0-d745-4e93-91db-4531b3df120e|ems__Task"
 exocmd__Grounding_targetPrototype: "df7e579d-02d4-4f3a-971f-3d1d785b689b|ems__TaskPrototype"
 exocmd__Grounding_inputSchema: '{"type":"object","properties":{"label":{"type":"string","title":"Task name"}},"required":["label"]}'
 exocmd__Grounding_propertyDefault:
   - "[[d9aa9bb8-5676-4ba2-ba5e-fc8d9df02250]]"
+  - "[[2299d503-8cb3-40f1-b56d-95abdc6d9f87]]"
 exocmd__Grounding_inheritanceRule:
   - "[[3f08f5a8-df11-47e7-8519-7d8d84175951]]"
   - "[[43731bae-78cb-4ffe-9eaa-4c258cb1c493]]"
@@ -25,5 +26,6 @@ Grounding bound to the canonical "Create Task" command (`dec97198`). Creates a n
 
 RFC v2 Phase 4a (Issue #3165, 2026-05-23): migrated from `service_call`/`serviceId: createAsset` + `targetValue: {"prototype":"ems__TaskPrototype"}` to declarative `create_instance`. Full pattern mirrors sibling Grounding `a6ef8fda` (Create TaskPrototype instance):
 - PropertyDefault `d9aa9bb8`: `ems__Effort_status = ems__EffortStatusDraft` (matches legacy `createRelatedTask` default).
-- InheritanceRules `3f08f5a8` / `43731bae` / `cbe000c4`: target's `exo__Asset_uid` → `ems__Effort_area` (when target is Area) or `ems__Effort_parent` (otherwise), plus `exo__Asset_isDefinedBy` pass-through (low priority).
+- PropertyDefault `2299d503`: `exo__Asset_isDefinedBy = <two-hop targetRefProperty marker>` (per-ontology efforts routing, req `c03f9e3e`, 2026-07-27) — reads the click-target's own `exo__Asset_isDefinedBy` ontology → that ontology's `exo__Ontology_effortsOntology`. Paired with `targetFolder = $isDefinedByFolder` so the new Effort co-locates in the target efforts-ontology's folder. Fail-open: an ontology without `effortsOntology` yields nothing → the `cbe000c4` isDefinedBy pass-through applies (co-locate with the click-target) — zero regression.
+- InheritanceRules `3f08f5a8` / `43731bae` / `cbe000c4`: target's `exo__Asset_uid` → `ems__Effort_area` (when target is Area) or `ems__Effort_parent` (otherwise), plus `exo__Asset_isDefinedBy` pass-through (low priority; runs after the two-hop propertyDefault, so it only fills isDefinedBy when the two-hop yielded nothing).
 - Default `linkBackProperty = exo__Asset_prototype` writes `[[$target]]` as the prototype back-link.

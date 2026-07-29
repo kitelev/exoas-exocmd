@@ -9,6 +9,7 @@ exo__Property_domain: "[[11579feb-2e42-491c-af59-b89b1129a539]]"
 exo__Property_range: "[[8bdf4506-80bf-4999-8fda-1ea0808b4ee5|exotemplate__Template]]"
 exo__Property_description: "ObjectProperty referencing an exotemplate__Template asset whose markdown BODY is loaded (via the plugin TemplateLoaderPort) and used as the body template for a body_template grounding (subproject 17f58ebe Веха 3). Preferred over inline exocmd__Grounding_bodyTemplate when both are set."
 exo__Asset_label: exocmd__Grounding_templateRef
+exo__Slugable_slug: "Grounding_templateRef"
 aliases:
   - exocmd__Grounding_templateRef
 exo__Property_displayName: templateRef

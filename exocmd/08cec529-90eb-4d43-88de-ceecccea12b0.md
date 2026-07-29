@@ -9,6 +9,7 @@ exo__Class_superClass:
   - "[[5ac2ff43-62b7-4316-af84-a731c3cadf7c]]"
 exo__Class_description: "Named substitution variable ($today, $todayStart, $targetFolder, $target). Заменяет TS-string-based registry в GroundingExecutor.substituteVariables. Vocabulary (какие токены существуют) — RDF; resolver implementation — TS под Q3 «ядро обработки»."
 exo__Asset_label: exocmd__SubstitutionToken
+exo__Slugable_slug: "SubstitutionToken"
 aliases:
   - exocmd__SubstitutionToken
 ---

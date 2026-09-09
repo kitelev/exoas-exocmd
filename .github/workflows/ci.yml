@@ -5,3 +5,16 @@ jobs:
     uses: kitelev/exoas-ci/.github/workflows/assetspace-ci.yml@main
     with:
       warn_only: false
+      # Behavioural gate (exoas-ci): applies `create-action` to a seeded
+      # ems__Task fixture and requires the created ems__Action to carry
+      # ems__Effort_parent = that task. Guards the Task-conditioned
+      # InheritanceRule 65acce2f wired into the Universal Default Template
+      # 62907ff4 — SHACL alone stays green if it is ever unwired
+      # (kitelev/exocortex#4220).
+      command_smoke: true
+      command_smoke_cli: create-action
+      # The ems TBox the fixture needs is NOT in this repo's dependsOn closure
+      # ({exoas-exo, exoas-w3c-aggregated}) and cannot be added there:
+      # exoas-public already dependsOn exoas-exocmd, so the reverse edge would
+      # make the DAG cyclic. This runtime-only need therefore lives here.
+      command_smoke_sources: https://github.com/kitelev/exoas-public
